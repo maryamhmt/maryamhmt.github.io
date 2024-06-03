@@ -155,60 +155,61 @@
                                 </ul>
                             </article>
 							
-                        <!-- CV and Contact Information  -->
-                            <article id="contact">
-                                <h2 class="major">Contact</h2>
-                                <p>Get in touch at:</p>
-                                <ul>
-                                    <li>Email: <a href="mailto:maryamhemmatiai@gmail.com">maryamhemmatiai@gmail.com</a></li>
-                                    <li>Email: <a href="mailto:maryam.hmt73@gmail.com">maryam.hmt73@gmail.com</a></li>
-                                    <li>LinkedIn: <a href="https://www.linkedin.com/in/maryam-hemmati/" target="_blank">Maryam Hemmati</a></li>
-                                </ul>
-                                <!-- <form id="myForm">
-									<div class="fields">
-										<div class="field half">
-											<label for="from_name">Name</label>
-											<input type="text" name="from_name" id="from_name" required />
-										</div>
-										<div class="field half">
-											<label for="from_email">Email</label>
-											<input type="email" name="from_email" id="from_email" required />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message_html" id="message" rows="4" required></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form> -->
-								
-								<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-								<script type="text/javascript">
-								   (function(){
-									  emailjs.init("your_api_key"); // Replace it with your actual API key
-								   })();
-								</script>
-								
-								<script type="text/javascript">
-									document.getElementById('myForm').addEventListener('submit', function(event) {
-										event.preventDefault();
-										emailjs.sendForm('your_service_id', 'your_template_id', this)
-											.then(function() {
-												alert('Email successfully sent!');
-											}, function(error) {
-												alert('Failed to send email: ' + JSON.stringify(error));
-											});
-									});
-								</script>
-                                <ul class="icons">
-                                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                                </ul>
-                            </article>
-
+                       <!-- Contact Information -->
+                          <article id="contact">
+                              <h2 class="major">Contact</h2>
+                              <p>Get in touch at:</p>
+                              <ul>
+                                  <li>Email: <a href="mailto:maryamhemmatiai@gmail.com">maryamhemmatiai@gmail.com</a></li>
+                                  <li>Email: <a href="mailto:maryam.hmt73@gmail.com">maryam.hmt73@gmail.com</a></li>
+                                  <li>LinkedIn: <a href="https://www.linkedin.com/in/maryam-hemmati/" target="_blank">Maryam Hemmati</a></li>
+                              </ul>
+                              <!-- <form id="myForm">
+                                  <div class="fields">
+                                      <div class="field half">
+                                          <label for="from_name">Name</label>
+                                          <input type="text" name="from_name" id="from_name" required />
+                                      </div>
+                                      <div class="field half">
+                                          <label for="from_email">Email</label>
+                                          <input type="email" name="from_email" id="from_email" required />
+                                      </div>
+                                      <div class="field">
+                                          <label for="message">Message</label>
+                                          <textarea name="message_html" id="message" rows="4" required></textarea>
+                                      </div>
+                                  </div>
+                                  <ul class="actions">
+                                      <li><input type="submit" value="Send Message" class="primary" /></li>
+                                      <li><input type="reset" value="Reset" /></li>
+                                  </ul>
+                              </form> -->
+                              
+                              <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+                              <script type="text/javascript">
+                                 (function(){
+                                    emailjs.init("your_api_key"); // Replace it with your actual API key
+                                 })();
+                              </script>
+                              
+                              <script type="text/javascript">
+                                  document.getElementById('myForm').addEventListener('submit', function(event) {
+                                      event.preventDefault();
+                                      emailjs.sendForm('your_service_id', 'your_template_id', this)
+                                          .then(function() {
+                                              alert('Email successfully sent!');
+                                          }, function(error) {
+                                              alert('Failed to send email: ' + JSON.stringify(error));
+                                          });
+                                  });
+                              </script>
+                              <ul class="icons">
+                                  <li><a href="https://github.com/maryamhmt" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                  <li><a href="https://www.linkedin.com/in/maryam-hemmati/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+                              </ul>
+                          </article>
+                          
+                          
 						<!-- Elements -->
 							<article id="elements">
 								<h2 class="major">Elements</h2>
